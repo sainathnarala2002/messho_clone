@@ -1,0 +1,87 @@
+.container {
+    flex-direction: row;
+    display: flex;
+    height: 72px;
+    width: 100%;
+}
+
+header {
+    align-items: center;
+}
+
+.btn {
+    justify-content: space-around;
+}
+
+#navbarScroll {
+    justify-content: space-evenly;
+}
+
+.container-fluid {
+    margin: 0px 95px;
+    padding: 0px 15px;
+}
+
+/*#navbarNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+hr {
+    margin: 0rem;
+}
+
+.pinkBG {
+    background-color: pink;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+
+#navbarSupportedContent {
+    justify-content: space-between;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+#searchInput {
+    height: 40px;
+    width: 400px;
+}
+
+.navbar .navbar-nav .dropdown-hover {
+    list-style: none;
+    background-color: #fff;
+    z-index: 9999;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav .dropdown-hover table {
+    background-color: #fff;
+}
+
+.navbar .navbar-nav .dropdown-hover table thead th {
+    color: #9F2089;
+    border: none;
+    width: 100%;
+}
+
+.navbar .navbar-nav .dropdown-hover table tbody td {
+    color: #616173;
+    border: none;
+    width: 100%;
+}
