@@ -5,9 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+  <!-- fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+  <!-- Montserrat font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,7 +26,7 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="/Project/assets/Meesho-Logo-Vector.svg-.png" width="150px"
+        <a class="navbar-brand" href="#"><img src="assets/logos/main-logo.png" class="img-fluid" width="150px"
             alt=""></a>
         <form class="d-flex" role="search">
           <div class="input-group">
@@ -62,41 +73,89 @@
       </div>
     </nav>
     <hr>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav class="navbar navbar-expand-lg p-0 bg-body-tertiary nav-2">
       <!-- <div class="container-fluid"> -->
       <div class="collapse navbar-collapse " id="navbarScroll">
-        <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <ul class="navbar-nav position-relative my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Women Ethnic</a>
             <ul class="dropdown-hover">
               <li>
-                <table class="table">
+                <table class="table m-0">
                   <thead>
                     <tr>
                       <th scope="col">All Women Ethnic</th>
-                      <th scope="col">Sarees</th>
+                      <th scope="col" class="tab-bg-2">Sarees</th>
                       <th scope="col">Kurtis</th>
-                      <th scope="col">Kurta Sets</th>
+                      <th scope="col" class="tab-bg-2">Kurta Sets</th>
                       <th scope="col">Suits & Dress Material</th>
-                      <th scope="col">Other Ethnic</th>
+                      <th scope="col" class="tab-bg-2">Other Ethnic</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr> 
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
+                    <tr>
+                      <td><a href="#">View All</a></td>
+                      <td class="tab-bg-2"><a href="#">All Sarees</a></td>
+                      <td><a href="#">All Kurtis</a></td>
+                      <td class="tab-bg-2"><a href="#">All Kurta Sets</a></td>
+                      <td><a href="#">All Suits & Dress Materials</a></td>
+                      <td class="tab-bg-2"><a href="#">Blouses</a></td>
                     </tr>
                     <tr>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
+                      <td></td>
+                      <td class="tab-bg-2"><a href="#">Silk Sarees</a></td>
+                      <td><a href="#">Anarkali Kurtis</a></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Cotton Suits</a></td>
+                      <td class="tab-bg-2"><a href="#">Dupattas</a></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"><a href="#">Contton Silk Sarees</a></td>
+                      <td><a href="#">Rayon Kurtis</a></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Embroidered Suits</a></td>
+                      <td class="tab-bg-2"><a href="#">Lehanga</a></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"><a href="#">Cotton Sarees</a></td>
+                      <td><a href="#">Cotton Kurtis</a></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Chanderi Suits</a></td>
+                      <td class="tab-bg-2"><a href="#">Enthic Bottomwear</a></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"><a href="#">Georgette Sarees</a></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"><a href="#">Chiffon Sarees</a></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"><a href="#">Satin Sarees</a></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"><a href="#">Embroidered Sarees</a></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
                     </tr>
                   </tbody>
                 </table>
@@ -106,27 +165,376 @@
 
           <li class="nav-item">
             <a class="nav-link" href="#">Women Western</a>
+            <ul class="dropdown-hover">
+              <li>
+                <table class="table m-0">
+                  <thead>
+                    <tr>
+                      <th scope="col">Topwear</th>
+                      <th scope="col" class="tab-bg-2">Bottomwear</th>
+                      <th scope="col">Innerwear</th>
+                      <th scope="col" class="tab-bg-2">Sleepwear</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#">Top</a></td>
+                      <td class="tab-bg-2"><a href="#">Jeans</a></td>
+                      <td><a href="#">Bra</a></td>
+                      <td class="tab-bg-2"><a href="#">Nightsuits</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Dresses</a></td>
+                      <td class="tab-bg-2"><a href="#">Jeggings</a></td>
+                      <td><a href="#">Briefs</a></td>
+                      <td class="tab-bg-2"><a href="#">Babydolls</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Sweaters</a></td>
+                      <td class="tab-bg-2"><a href="#">Palazzons</a></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Jumpsuits</a></td>
+                      <td class="tab-bg-2"><a href="#">Shorts</a></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#"></a></td>
+                      <td class="tab-bg-2"><a href="#">Skirts</a></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-disabled="true">Men</a>
+            <ul class="dropdown-hover">
+              <li>
+                <table class="table m-0">
+                  <thead>
+                    <tr>
+                      <th scope="col">All Top Wear</th>
+                      <th scope="col" class="tab-bg-2">Track Pants</th>
+                      <th scope="col">All Mens Accessories</th>
+                      <th scope="col" class="tab-bg-2">Casual Shoes</th>
+                      <th scope="col">Men Kurtas</th>
+                      <th scope="col" class="tab-bg-2">All Inner & Sleepwear</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#">T-Shirts</a></td>
+                      <td class="tab-bg-2"><a href="#">Jeans</a></td>
+                      <td><a href="#">Watches</a></td>
+                      <td class="tab-bg-2"><a href="#">Sport Shoes</a></td>
+                      <td><a href="#">Enthic Jackets</a></td>
+                      <td class="tab-bg-2"><a href="#">Vests</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Shirts</a></td>
+                      <td class="tab-bg-2"><a href="#">Trousers</a></td>
+                      <td><a href="#">Belts</a></td>
+                      <td class="tab-bg-2"><a href="#">Sandals</a></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Wallets</a></td>
+                      <td class="tab-bg-2"><a href="#">Formal Shoes</a></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Jewellery</a></td>
+                      <td class="tab-bg-2"></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Sunglasses</a></td>
+                      <td class="tab-bg-2"></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Bags</a></td>
+                      <td class="tab-bg-2"></td>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-disabled="true">Kids</a>
+            <ul class="dropdown-hover">
+              <li>
+                <table class="table m-0">
+                  <thead>
+                    <tr>
+                      <th scope="col">Boys & Girls 2+ Years</th>
+                      <th scope="col" class="tab-bg-2">Infant 0-2 Years</th>
+                      <th scope="col">Toys & Accessories</th>
+                      <th scope="col" class="tab-bg-2">Baby Care</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#">Dresses</a></td>
+                      <td class="tab-bg-2"><a href="#">Rompers</a></td>
+                      <td><a href="#">Soft Toys</a></td>
+                      <td class="tab-bg-2"><a href="#">All Baby Care</a></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Footwear</a></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Stationery</a></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Watches</a></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Bags & Backpacks</a></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-disabled="true">Home Kitchen</a>
+            <ul class="dropdown-hover">
+              <li>
+                <table class="table m-0">
+                  <thead>
+                    <tr>
+                      <th scope="col">Home Furnishing</th>
+                      <th scope="col" class="tab-bg-2">Home Decore</th>
+                      <th scope="col">Kitchen & Dining</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#">Bedsheets</a></td>
+                      <td class="tab-bg-2"><a href="#">All Home Decor</a></td>
+                      <td><a href="#">Kitchen Storage</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Doormats</a></td>
+                      <td class="tab-bg-2"><a href="#">Stickers</a></td>
+                      <td><a href="#">Cookwear & Bakewear</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Curtains & Sheers</a></td>
+                      <td class="tab-bg-2"><a href="#">Clocks</a></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Cushions & Cushion Cover</a></td>
+                      <td class="tab-bg-2"><a href="#">Showpeices</a></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Mattress Protectors</a></td>
+                      <td class="tab-bg-2"><a href="#">Skirts</a></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-disabled="true">Beauty Health</a>
+            <ul class="dropdown-hover">
+              <li>
+                <table class="table m-0">
+                  <thead>
+                    <tr>
+                      <th scope="col">Make up</th>
+                      <th scope="col" class="tab-bg-2">Wellness</th>
+                      <th scope="col">Skincare</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#">Face</a></td>
+                      <td class="tab-bg-2"><a href="#">Sanitizers</a></td>
+                      <td><a href="#">Deodorants</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Eyes</a></td>
+                      <td class="tab-bg-2"><a href="#">Oral Care</a></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Lips</a></td>
+                      <td class="tab-bg-2"><a href="#">Feminine Hygiene</a></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Nails</a></td>
+                      <td class="tab-bg-2"></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-disabled="true">Jewellery Accessories</a>
+            <ul class="dropdown-hover">
+              <li>
+                <table class="table m-0">
+                  <thead>
+                    <tr>
+                      <th scope="col">Jewellery</th>
+                      <th scope="col" class="tab-bg-2">Women Accessory</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#">Jewellery Set</a></td>
+                      <td class="tab-bg-2"><a href="#">Bags</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Earing</a></td>
+                      <td class="tab-bg-2"><a href="#">Watches</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Mangalsutras</a></td>
+                      <td class="tab-bg-2"><a href="#">Hair Accessories</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Studs</a></td>
+                      <td class="tab-bg-2"><a href="#">Sunglasses</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Babgales</a></td>
+                      <td class="tab-bg-2"><a href="#">Socks</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Nackles</a></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Rings</a></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Anklets</a></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-disabled="true">Bags Footwear</a>
+            <ul class="dropdown-hover">
+              <li>
+                <table class="table m-0">
+                  <thead>
+                    <tr>
+                      <th scope="col">Women Bags</th>
+                      <th scope="col" class="tab-bg-2">Men Bags</th>
+                      <th scope="col">Men Footwear</th>
+                      <th scope="col" class="tab-bg-2">Women Footwear</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#">All Women Bags</a></td>
+                      <td class="tab-bg-2"><a href="#">All Men Bags</a></td>
+                      <td><a href="#">Sports Shoes</a></td>
+                      <td class="tab-bg-2"><a href="#">Flats</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Handbags</a></td>
+                      <td class="tab-bg-2">Men Wallets</td>
+                      <td><a href="#">Casual Shoes</a></td>
+                      <td class="tab-bg-2"><a href="#">Bellies</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Clutches</a></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Formal Shoes</a></td>
+                      <td class="tab-bg-2"><a href="#">Juttis</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Slingbags</a></td>
+                      <td class="tab-bg-2"></td>
+                      <td><a href="#">Sandals</a></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" aria-disabled="true">Electronics</a>
+            <ul class="dropdown-hover">
+              <li>
+                <table class="table m-0">
+                  <thead>
+                    <tr>
+                      <th scope="col">Mobile & Accessories</th>
+                      <th scope="col" class="tab-bg-2">Appliances</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="#">All Mobile & Accessories</a></td>
+                      <td class="tab-bg-2"><a href="#">All Appliances</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Smartwatches</a></td>
+                      <td class="tab-bg-2"><a href="#">Grooming</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Mobile Holders</a></td>
+                      <td class="tab-bg-2"><a href="#">Home Appliances</a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Mobile cases and covers</a></td>
+                      <td class="tab-bg-2"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
