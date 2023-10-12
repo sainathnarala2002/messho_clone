@@ -70,7 +70,7 @@ body {
     background-color: #fff;
     z-index: 999;
     position: absolute;
-    top: 78px;
+    top: 80px;
     left: 0;
     margin: 0;
     padding: 0;
@@ -110,7 +110,21 @@ body {
 
 .navbar .navbar-nav .nav-item:hover > .dropdown-hover{
 display: block !important;
+
 }
+
+.navbar .navbar-nav .nav-item:hover {
+    color: #9F2089;
+    border-bottom: 4px solid #9F2089 !important;
+}
+
+.navbar .navbar-nav .nav-item:hover > a {
+    color: #9F2089;
+ }
+
+ .navbar .navbar-nav .nav-item  a {
+   font-weight: 600;
+ }
 
 .nav-2 .navbar-nav .nav-item{
     padding: 20px 10px;
